@@ -22,7 +22,8 @@
 
 #ifdef WIN32
 	#include <intrin.h>
-#else
+#endif
+#ifdef __x86_64__
 	#include <x86intrin.h>
 #endif
 
