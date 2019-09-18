@@ -131,6 +131,7 @@ set(GROK_SRCS
   ${CMAKE_CURRENT_SOURCE_DIR}/enkitTS/TaskScheduler.h
   ${CMAKE_CURRENT_SOURCE_DIR}/enkitTS/TaskScheduler.cpp  
   ${CMAKE_CURRENT_SOURCE_DIR}/enkitTS/LockLessMultiReadPipe.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/JP2Decode.cpp
 )
 
 option(GRK_DISABLE_TPSOT_FIX "Disable TPsot==TNsot fix. See https://github.com/uclouvain/openjpeg/issues/254." OFF)
